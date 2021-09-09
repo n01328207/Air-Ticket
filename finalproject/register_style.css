@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+
+.back{
+height: 100%;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(banner.jpg);
+background-position: center;
+background-size: cover;
+position: absolute;
+}
+
+.box{
+width: 300px;
+height: 525px;
+position: relative;
+margin: 6% auto;
+background: #fff;
+padding: 5px;
+overflow: hidden;
+}
+
+.button-box{
+width: 250px;
+margin: 35px auto;
+position: relative;
+border-radius: 30px;
+}
+
+.bttn{
+padding: 12px 28px;
+cursor: pointer;
+background: transparent;
+border: 0;
+outline: none;
+position: relative;
+}
+
+
+
+.input-section{
+top: 25px;
+position: absolute;
+width: 280px;
+transition: .5s;
+}
+
+.inputfields{
+width: 100%;
+padding: 10px 0;
+margin: 5px 0;
+border-left: 0;
+border-top: 0;
+border-right: 0;
+border-bottom: 1px solid #999;
+outline: none;
+background: transparent;
+}
+
+.sub-bttn{
+width: 85%;
+padding: 10px 30px;
+cursor: pointer;
+display: block;
+margin: auto;
+margin-bottom: 5px;
+background: linear-gradient(to right, #ff105f,#ffad06);
+border: 0;
+outline: none;
+border-radius: 30px;
+}
+
+.checkbox{
+margin: 30px 10px 30px 0;
+}
+
+span{
+color: #777;
+font-size: 12px;
+margin: 0px 0px -50px -10px;
+}
+
+
+a{
+margin-left:95px;
+	
+}
+
+.error {
+position:relative;
+color:red;
+font-size:12px;		
+}
+
+.gender{
+color:red;
+border-top:50px;
+}
+
+
+
